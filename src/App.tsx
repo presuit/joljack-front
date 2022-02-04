@@ -1,25 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Home from "./routes/Home";
+import Join from "./routes/Join";
+import Login from "./routes/Login";
+import ProblemRecommend from "./routes/ProblemRecommend";
+
+export enum routes {
+  HOME = "/",
+  LOGIN = "/login",
+  JOIN = "/join",
+  PROBLEM_RECOMMEND = "/problem-recommend",
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path={routes.HOME} element={<Home />}></Route>
+        <Route
+          path={routes.PROBLEM_RECOMMEND}
+          element={<ProblemRecommend />}
+        ></Route>
+        <Route path={routes.LOGIN} element={<Login />}></Route>
+        <Route path={routes.JOIN} element={<Join />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
