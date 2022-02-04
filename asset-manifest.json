@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/joljack-front/static/css/main.50cda843.css",
+    "main.js": "/joljack-front/static/js/main.6b401d11.js",
+    "index.html": "/joljack-front/index.html",
+    "main.50cda843.css.map": "/joljack-front/static/css/main.50cda843.css.map",
+    "main.6b401d11.js.map": "/joljack-front/static/js/main.6b401d11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50cda843.css",
+    "static/js/main.6b401d11.js"
+  ]
+}
