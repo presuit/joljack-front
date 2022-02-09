@@ -11,9 +11,9 @@ const ProblemCard: React.FC<IProblemCard> = ({ item }) => {
       className="w-[40%] h-96 app-store-view-first:w-[60%] app-store-view-last:w-[60%] p-3"
       key={item}
     >
-      <div className="w-full h-full bg-slate-200 flex justify-center items-end shadow hover:shadow-xl transition-all duration-300 rounded-2xl overflow-hidden hover:scale-105 transform relative">
+      <div className="w-full h-full bg-slate-200 flex justify-center items-end shadow hover:shadow-2xl transition-all duration-300 rounded-2xl overflow-hidden hover:scale-105 transform relative group">
         <img
-          className="absolute top-0 left-0 w-full h-full object-cover object-center "
+          className="absolute top-0 left-0 w-full h-full object-cover object-center filter blur-sm group-hover:blur-none transition-all duration-300"
           alt="lorem picsum"
           src={`https://picsum.photos/500/500?random=${item + 1}`}
         />

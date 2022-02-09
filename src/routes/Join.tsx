@@ -15,7 +15,7 @@ const Join = () => {
     <Container customStyle="flex justify-center items-center">
       <PageTitle title="회원가입" />
       <main className="max-w-screen-lg  w-full h-[60vh] bg-slate-300 rounded-2xl overflow-hidden flex">
-        <section className="w-[30%] h-full bg-slate-400 flex justify-center items-center flex-col gap-5">
+        <section className="w-[40%] h-full bg-slate-400 flex justify-center items-center flex-col gap-5">
           <FontAwesomeIcon
             className="text-[12rem] text-slate-700"
             icon={faUserCircle}
@@ -24,7 +24,7 @@ const Join = () => {
             회원가입
           </span>
         </section>
-        <section className="w-[70%] h-full p-10">
+        <section className="w-[60%] h-full p-10">
           <form
             autoComplete="off"
             className="w-full h-full flex flex-col items-center justify-center gap-5 text-slate-700 text-lg"
