@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/joljack-front/static/css/main.1292a1bb.css",
-    "main.js": "/joljack-front/static/js/main.a465c4e9.js",
+    "main.css": "/joljack-front/static/css/main.7b0196e2.css",
+    "main.js": "/joljack-front/static/js/main.81db81ad.js",
     "index.html": "/joljack-front/index.html",
-    "main.1292a1bb.css.map": "/joljack-front/static/css/main.1292a1bb.css.map",
-    "main.a465c4e9.js.map": "/joljack-front/static/js/main.a465c4e9.js.map"
+    "main.7b0196e2.css.map": "/joljack-front/static/css/main.7b0196e2.css.map",
+    "main.81db81ad.js.map": "/joljack-front/static/js/main.81db81ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.1292a1bb.css",
-    "static/js/main.a465c4e9.js"
+    "static/css/main.7b0196e2.css",
+    "static/js/main.81db81ad.js"
   ]
 }
